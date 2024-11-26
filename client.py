@@ -2,10 +2,8 @@ import os
 import argparse
 import json
 import time
-import asyncio
 from dotenv import load_dotenv
 import logging
-import asyncio
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, ContextTypes, filters
 from sdk import bot_response
